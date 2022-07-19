@@ -84,13 +84,62 @@ number = 5 # number - переменная
 
 """Дана переменная с радиусом окружности, найдите периметр и площадь окружности, результат выведите в терминал"""
 
-from math import pi
+# from math import pi
 
-r = int(input('Vvedite radius: '))
-result_P = 2 * r * pi
-result_S = pi * (r ** 2)
-print('Площадь окружности', round(result_S, 2))
-print('Периметр окружности', round(result_P,2))
+# r = int(input('Vvedite radius: '))
+# result_P = 2 * r * pi
+# result_S = pi * (r ** 2)
+# print('Площадь окружности', round(result_S, 2))
+# print('Периметр окружности', round(result_P,2))
+
+# num = 6
+# num = 'string'
+# print(num)
+# print(type(num))
+
+# str1 = 'Hello world!'
+# num = 5
+# print(str1 * num)
+
+# num = 5
+# str1 = '16'
+# num = str(num)
+# print(str1 + num)
+# num2 = int(str1)
+# print(type(num2))
+
+# var = input('Vvedite: ')
+# print(var)
+# print(type(var))
+
+# num1 = int(input('Vvedite chislo: '))
+# num2 = int(input('Vvedite stepen: '))
+# print(num1 ** num2)
+# print(pow(num1, num2))
+
+# import random
+# from random import randint
+
+# name = input('Vvedite svoe imya: ')
+# last_name = input('Vvedite svoyu familiyu: ')
+# name = 'John'
+# last_name = 'Snow'
+# num = str(random.randint(111111, 999999))
+# # print(num)
+# num = set(num)
+# # print(num)
+# num = ''.join(num)
+# # print(num)
+# result = name + last_name + num
+# print(result)
+
+
+# a = 1
+# b = a
+
+# print(id(a))
+# print(id(b))
+# print(id(1))
 
 
 
