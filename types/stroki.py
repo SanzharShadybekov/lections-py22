@@ -81,7 +81,7 @@ Hello world
 # a = input('Enter mr/mrs: ')
 # name = input('Enter your name: ')
 # last_name = input('Enter your last name: ')
-# print(f'Hello {a} {last_name} {name}. Welcome to the parthy!')
+# print(f'Hello {a} {lastformat_name} {name}. Welcome to the parthy!')
 
 print(dir(str))
 
