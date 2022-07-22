@@ -78,18 +78,30 @@
 #     print(f'Chuvak prihodi cherez {18 - age} goda/let!!!')
 # else:
 #     print('Vy prohodite po vozrastu!')
+# import string
+
+# print(string.digits)
+# print(string.ascii_letters)
+# print(string.punctuation)
 
 
 # password = input('Enter your password: ')
 # symbols = ['_', ',', '.', '%', '#', '@', '+', '-', '*', '(', ')']
+# nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 # flag = False
 # for element in symbols:
 #     if element in password:
 #         flag = True
 
-# if password.isalpha():
-#     raise Exception('Вы ввели только буквы, нужны еще цифры!')
+# flag_nums = False
+# for num in nums:
+#     # print(num)
+#     if num in password:
+#         flag_nums = True
+
+# if not flag_nums:
+#     raise Exception('Вы ввели только буквы b символы, нужны еще цифры!')
 # elif password.isdigit():
 #     raise Exception('Вы ввели только цифры, нужны еще буквы!')
 # elif not flag:
@@ -97,7 +109,69 @@
 # else:
 #     print('Все окей вы ввели корректный пароль!')
 
+# Логические операторы
+# and -> Логическое и
+# or -> лог или
+# not -> лог отрицание
 
+# Операторы идентификации
+# in -> проверяет наличие элемента внутри какого либо массива или строки
+# is -> сравнивает ячейки памяти двуъ элементу
+    # == -> сравнивает по значение
+# is not -> отрицательное сравнение ячеек памяти
+
+# my_age = 20
+# your_age = 18
+# result = my_age == 21 and your_age == 18
+# print(result)
+
+# result = my_age < 18 or your_age < 17
+# print(result)
+
+# result = not my_age > 25
+# print(result)
+
+
+# is_google_user = True
+# is_github_user = False
+# is_age_greater_21 = False
+# user_coins = 8000
+
+# if (is_google_user and is_github_user) and (is_age_greater_21 or user_coins > 5000):
+#     print('You can enter the system mr John Snow!')
+# else:
+#     print('Sorry, you couldn\'t enter!')
+
+
+# str1 = 'Hello world!'
+# choice = input('Vvedite simvol: ')
+
+# if choice in str1:
+#     print(f'Символ {choice} есть в строке: "{str1}"')
+# else:
+#     print(f'Символа {choice} нет в строке: "{str1}"')
+
+
+# dano [1--100]
+# \3 -> <3> - fu
+# \5 -> <5> - ba
+# \3, \5 -> <15> - fuba
+
+# for number in range(1,100):
+#     if number % 3 == 0 and number % 5 == 0:
+#         print(f'{number} - fuba')
+#     elif number % 5 == 0:
+#         print(f'{number} - ba')
+#     elif number % 3 == 0:
+#         print(f'{number} - fu')
+
+# print('sad')
+
+# num = 1
+# while num >= 0:
+#     num = int(input('Vvedite chislo: '))
+#     if num < 0:
+#         print('Встретилось отрицательное число')
 
 
 
